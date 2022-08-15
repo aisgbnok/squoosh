@@ -43,7 +43,7 @@
 .expand-arrow {
   fill: var(--white);
   transform: rotate(180deg);
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   align-self: center;
 
   @media (min-width: 600px) {
@@ -60,7 +60,7 @@
 
   svg {
     display: block;
-    --size: 15px;
+    --size: 24px;
     width: var(--size);
     height: var(--size);
   }
@@ -259,7 +259,7 @@
   grid-area: 1 / 1;
 
   svg {
-    --size: 19px;
+    --size: 24px;
     width: var(--size);
     height: var(--size);
     fill: var(--white);
@@ -269,7 +269,7 @@
     animation: action-enter 0.2s;
 
     @media (min-width: 600px) {
-      --size: 27px;
+      --size: 40px;
       top: 2px;
       left: 2px;
     }
